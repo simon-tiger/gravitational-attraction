@@ -119,7 +119,7 @@ void draw() {
   fill(0);
   text("click on one of the targets to add new target at random location", 10, 25);
   text("'t' to add a new target at mouse location", 10, 50);
-  text("'p' to add a new particle at nouse location", 10, 75);
+  text("'p' to add a new particle at mouse location", 10, 75);
   for (Particle p : particles) {
     world.addParticle(p);
     for (Target t : targets) {
